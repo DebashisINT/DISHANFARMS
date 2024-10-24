@@ -1,0 +1,12 @@
+package com.breezedishanfarm.features.reimbursement.model
+
+import com.breezedishanfarm.base.BaseResponse
+
+/**
+ * Created by Saikat on 24-01-2019.
+ */
+class ReimbursementConfigFetchResponseModel : BaseResponse() {
+    var maximum_allowance: String? = null
+    var distance: String? = null
+    var rate: String? = null
+}
